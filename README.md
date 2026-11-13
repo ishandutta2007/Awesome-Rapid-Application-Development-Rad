@@ -53,7 +53,7 @@
 
 ## 🟩 Open-Source Software
 
-💻 Self-hosted, community-driven Rapid Application Development frameworks and low-code alternatives. The table is ranked in descending order by **GitHub Stars_Count** 🌟.
+💻 Self-hosted, community-driven Rapid Application Development frameworks and low-code alternatives. The table is ranked in descending order by **GitHub_Stars_Count** 🌟.
 
 | 📦 Framework | ⭐ GitHub_Stars | 📜 License | 🛠️ Primary Tech Stack | 📝 Description & Key Strengths |
 | :--- | :--- | :--- | :--- | :--- |
