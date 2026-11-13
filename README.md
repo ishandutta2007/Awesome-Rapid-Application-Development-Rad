@@ -7,7 +7,7 @@
 > ⚡ A comprehensive, SEO-optimized curated directory of top **Rapid Application Development (RAD)** platforms, enterprise **low-code** and **no-code** application builders, internal tool frameworks, and modern open-source alternatives. Build admin panels, customer portals, CRUD applications, and workflow automations 10x faster with minimal hand-coding! 🛠️
 
 <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94bblueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Rapid-Application-Development-Rad?style=social)](https://github.com/ishandutta2007/Awesome-Rapid-Application-Development-Rad/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Rapid-Application-Development-Rad?style=social)](https://github.com/ishandutta2007/Awesome-Rapid-Application-Development-Rad/stargazers)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Rapid-Application-Development-Rad/pulls)
 <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -53,9 +53,9 @@
 
 ## 🟩 Open-Source Software
 
-💻 Self-hosted, community-driven Rapid Application Development frameworks and low-code alternatives. The table is ranked in descending order by **GitHub Star Count** 🌟.
+💻 Self-hosted, community-driven Rapid Application Development frameworks and low-code alternatives. The table is ranked in descending order by **GitHub Stars_Count** 🌟.
 
-| 📦 Framework | ⭐ GitHub Stars | 📜 License | 🛠️ Primary Tech Stack | 📝 Description & Key Strengths |
+| 📦 Framework | ⭐ GitHub_Stars | 📜 License | 🛠️ Primary Tech Stack | 📝 Description & Key Strengths |
 | :--- | :--- | :--- | :--- | :--- |
 | **[NocoDB](https://github.com/nocodb/nocodb)** | [![NocoDB Stars](https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white)](https://github.com/nocodb/nocodb/stargazers) | AGPL-3.0 | Node.js / Vue.js / TypeScript | Open-source smart spreadsheet and Airtable alternative. Transforms any existing relational database (PostgreSQL, MySQL, SQLite, SQL Server) into a collaborative, rich grid with REST/GraphQL APIs and webhooks. |
 | **[Appsmith](https://github.com/appsmithorg/appsmith)** | [![Appsmith Stars](https://img.shields.io/github/stars/appsmithorg/appsmith?style=social&color=white)](https://github.com/appsmithorg/appsmith/stargazers) | Apache-2.0 | Java / React / TypeScript | Leading permissive open-source low-code framework to build admin panels, internal tools, and workflows. Connects to 30+ databases and APIs with drag-and-drop widgets and custom JS scripting. |
@@ -125,7 +125,7 @@ Your support is deeply appreciated and keeps open-source research alive! 🌟✨
 Contributions are warmly welcome! 🙌 If you know of an outstanding open-source Rapid Application Development framework, low-code tool, or internal app builder that belongs on this list:
 
 1. 🍴 Fork this repository.
-2. ➕ Add your tool to the table (keeping it sorted by star count).
+2. ➕ Add your tool to the table (keeping it sorted by Stars_Count).
 3. 🔗 Include project links, license, tech stack, and a clear description of why it stands out.
 4. 🚀 Submit a Pull Request.
 
