@@ -1,158 +1,118 @@
-# Awesome-Rapid-Application-Development-Rad
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Rapid Application Development (RAD) Banner" width="100%" />
+</p>
 
-# Awesome Rapid Application Development (RAD)
+# Awesome Rapid Application Development (RAD) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of top Rapid Application Development (RAD) platforms — both SaaS/Hosted commercial low-code and no-code builders and open-source alternatives for visually assembling internal tools, admin panels, and business applications with minimal hand-coding.
-> 🌟 Star this repo if you find it useful! 🌟
+> A comprehensive, SEO-optimized directory of top **Rapid Application Development (RAD)** platforms, enterprise **low-code** and **no-code** application builders, internal tool frameworks, and modern open-source alternatives. Build admin panels, customer portals, CRUD applications, and workflow automations 10x faster with minimal hand-coding.
+
+[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Rapid-Application-Development-Rad?style=social)](https://github.com/ishandutta2007/Awesome-Rapid-Application-Development-Rad/stargazers)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Rapid-Application-Development-Rad/pulls)
 
 ---
 
 ## 📋 Table of Contents
 
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Retool](#retool)
-  - [Bubble](#bubble)
-  - [OutSystems](#outsystems)
-  - [Mendix](#mendix)
-  - [Appian](#appian)
-  - [FlutterFlow](#flutterflow)
-  - [Zoho AppCreator](#zoho-appcreator)
-- [Open-Source Software](#-open-source-software)
-  - [ToolJet](#tooljet)
-  - [Appsmith](#appsmith)
-  - [Budibase](#budibase)
-  - [Windmill](#windmill)
-  - [Saltcorn](#saltcorn)
-  - [Baserow](#baserow)
-  - [Directus](#directus)
-  - [DashPress](#dashpress)
-  - [A12](#a12)
-- [Comparison at a Glance](#-comparison-at-a-glance)
-- [Contributing](#-contributing)
+- [📈 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🟦 SaaS / Hosted Platforms](#-saas--hosted-platforms)
+- [🟩 Open-Source Software](#-open-source-software)
+- [📊 Comparison at a Glance](#-comparison-at-a-glance)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+
+---
+
+## 📈 Sector Overview & Market Dynamics
+
+The global Low-Code & Rapid Application Development (RAD) market is estimated between **$26 billion and $37 billion in 2025**, projected to surpass **$100 billion by 2030** with an annual growth rate (CAGR) exceeding 25%–30%. 
+
+The sector exhibits a **hybrid market structure**: it is **concentrated at the top** among established cloud and enterprise giants (such as OutSystems, Mendix/Siemens, Appian, and Retool) serving mission-critical enterprise workflows, while remaining **highly fragmented across mid-market and niche segments** with hundreds of specialized SaaS solutions, mobile-first builders, and a vibrant, fast-growing open-source ecosystem competing fiercely for developer mindshare.
 
 ---
 
 ## 🟦 SaaS / Hosted Platforms
 
-Commercial, cloud-hosted Rapid Application Development platforms. These are not open-source but are included as reference points for feature comparison.
+Below is a detailed breakdown of commercial, cloud-hosted Rapid Application Development platforms, ranked in descending order by **company size (estimated valuation / parent revenue)**.
 
-### Retool
-**Type:** Low-code platform for internal tools and admin panels
-Retool is the most widely recognized commercial low-code platform for building internal tools, connecting to databases and APIs with a drag-and-drop UI builder. It includes AI credits for assisted development. Pricing starts at $10/month per builder for the Team plan, with a free tier for small teams [citation:6]. It is the benchmark against which open-source alternatives like ToolJet and Appsmith are measured.
-
-### Bubble
-**Type:** No-code full-stack web application builder
-Bubble is a leading no-code platform for building full web applications, with visual logic and a hosted database. It is positioned for founders and non-technical builders creating SaaS products, marketplaces, and web apps. Pricing starts at $59/month (billed annually) for the Starter plan, with a free tier available [citation:6]. Its strength is the breadth of what can be built without code; the trade-off is potential vendor lock-in and performance ceilings at scale.
-
-### OutSystems
-**Type:** Enterprise low-code platform
-OutSystems is a long-standing enterprise low-code platform for building web and mobile applications with visual modeling, full-stack capabilities, and deployment automation. It is known for enterprise governance, lifecycle management, and integration depth. Pricing is quote-based and typically targets mid-to-large enterprises.
-
-### Mendix
-**Type:** Enterprise low-code with model-driven development
-Mendix (Siemens) provides a visual development environment with model-driven architecture, multi-cloud deployment, and strong governance features. It supports collaborative development between business users and IT. Pricing is quote-based with a free tier for small teams.
-
-### Appian
-**Type:** Low-code automation with process orchestration
-Appian's low-code platform combines visual app design with process automation, case management, and AI capabilities. It is strong in regulated industries needing audit trails and compliance controls. Pricing is quote-based.
-
-### FlutterFlow
-**Type:** Visual Flutter app builder
-FlutterFlow is a visual app builder that generates real Flutter code, letting teams design and build mobile and web apps through a drag-and-drop interface while keeping access to the underlying, exportable codebase. It has a free plan with up to 2 projects, and paid plans from $39/month for unlimited projects and code export [citation:6]. It is the go-to choice for teams wanting native mobile apps without writing Flutter by hand.
-
-### Zoho AppCreator
-**Type:** No-code app builder within Zoho ecosystem
-Zoho AppCreator (part of Zoho Creator) provides a no-code environment for building business applications with forms, workflows, and reports. It is the natural choice for organizations already using Zoho products, with tight integration into the broader Zoho suite.
+| Platform | Type / Focus | Company Size (Valuation / Revenue) | Paid Pricing (Starting Tier) | Free Forever Plan & Limits / Free Trial | Best For |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **[Zoho Creator](https://www.zoho.com/creator/)** | No-Code Business App Builder | **~$12B – $12.5B** valuation *(Parent revenue: ~$1.4B+ ARR)* | **$8/user/month** (Standard plan, billed annually) or via Zoho One bundle ($37/emp/mo) | **Free Forever Plan**: Capped at 3 users, 1 application, 5,000 records, and 50 MB storage | Teams invested in the Zoho ecosystem wanting integrated business workflows |
+| **[OutSystems](https://www.outsystems.com/)** | Enterprise Low-Code Application Platform | **~$9.5B** peak valuation *(Estimated ~$330M – $500M ARR)* | **~$36,300/year** (~$3,025/month base package for OutSystems Developer Cloud) | **Free Personal Edition**: Free forever for prototyping/learning, up to 100 internal users, non-production cloud sandbox | Large enterprises building high-scale customer-facing portals and core legacy modernizations |
+| **[Appian](https://appian.com/)** | Low-Code Automation & Process Orchestration | **~$3.6B** market cap *(NASDAQ: APPN; ~$843M TTM Revenue)* | **~$75/user/month** (Standard tier, annual contract with minimum seat floors) | **Appian Community Edition**: Free forever non-production sandbox environment, up to 15 users, includes Data Fabric and AI skills | Regulated industries, financial services, and government bodies requiring compliance audits and complex process orchestration |
+| **[Retool](https://retool.com/)** | Low-Code Platform for Internal Tools & Portals | **~$3.2B** valuation *(~$100M+ ARR)* | **$10/month per builder** + $5/month per internal end-user (Team plan, billed annually) | **Free Forever Plan**: Capped at 5 total users, unlimited apps, 500 workflow runs/mo, 250 AI credits/mo | Fast-moving engineering teams building bespoke internal tools, CRUD panels, and database interfaces |
+| **[Bubble](https://bubble.io/)** | Full-Stack No-Code Web App Builder | **~$800M – $1B** estimated valuation *($106.3M raised; $1B+ community GMV)* | **$29/month** (Starter plan, billed annually; includes 175,000 Workload Units/mo) | **Free Forever Plan**: 1 app, full visual IDE and database builder, `.bubbleapps.io` subdomain, Bubble branding, testing & prototyping only | Solo founders, agencies, and non-technical builders launching full-stack SaaS MVPs without writing code |
+| **[Mendix](https://www.mendix.com/)** | Model-Driven Enterprise Low-Code Platform | **$730M** acquisition valuation *(Siemens subsidiary; Digital Industries unit)* | **$1,090/month** (Standard Single-App plan, up to 50 users) or $2,725/mo for unlimited apps | **Free Edition**: Free forever access to Mendix Studio Pro, sandbox deployment environment with unlimited test users, no production SLA | Enterprise engineering organizations wanting model-driven architecture integrated into industrial IoT and SAP |
+| **[FlutterFlow](https://www.flutterflow.io/)** | Visual Flutter & Dart Native App Builder | **~$170M** Series A valuation *(Raised ~$30M; 1M+ active builders)* | **$39/month** (Standard plan; unmetered code export, APK/IPA builds, custom domains) | **Free Forever Plan**: Capped at 2 active projects, full visual UI builder, web & mobile preview mode, no source code export or store deployment | Cross-platform engineers and startups building native iOS, Android, and web apps with clean Flutter source code |
 
 ---
 
 ## 🟩 Open-Source Software
 
-Self-hosted, community-driven Rapid Application Development tools. The open-source ecosystem is strongest for **internal tools and admin panels**, with several mature platforms competing directly with Retool.
+Self-hosted, community-driven Rapid Application Development frameworks and low-code alternatives. The table is ranked in descending order by **GitHub Star Count**.
 
-### ToolJet
-**Stack:** Node.js / React / PostgreSQL | **License:** GPL-3.0 (Community) / AGPL-3.0 (self-hosted)
-ToolJet is an extensible low-code framework for building and deploying internal tools with minimal engineering effort, positioned as an alternative to Retool and Mendix . Key features include a drag-and-drop interface with **40+ pre-built UI components**, **30+ database connectors** (PostgreSQL, MySQL, MongoDB), REST API and GraphQL integration, real-time data synchronization, a visual query builder, workflow designer, form builder, and multi-user collaboration with role-based permissions . It is **one of the healthiest open-source projects** in this category, with a Repoly health score of 98/100, 41k GitHub stars, and 1,421 commits in 90 days [citation:10]. It offers a **permanent cloud free plan** (2 builders, 50 end users, 2 apps, 100 AI credits/month) and a fully open-source community edition for unlimited self-hosted users [citation:13]. **Caveat:** The self-hosted edition's AGPL licensing means distributing a modified ToolJet as a product requires open-sourcing your changes [citation:13].  
-**Best for:** Teams wanting the most feature-dense open-source Retool alternative with strong health metrics and a generous free tier, accepting copyleft licensing for self-hosted distribution.
-
-### Appsmith
-**Stack:** Java / React / MongoDB | **License:** Apache-2.0
-Appsmith is an open-source framework to build admin panels, CRUD apps, and workflows, positioned as a Retool alternative. It has **41k GitHub stars**, a Repoly health score of **98/100**, and **1,896 commits in 90 days** — the most raw commit activity among the top open-source alternatives [citation:10]. Its **Apache-2.0 license is permissive**, allowing forking or embedding without publishing changes [citation:10]. It offers a cloud free plan and paid plans from $15/user/month (Business) [citation:6]. It is the strongest choice for teams that need permissive licensing or plan to embed the builder into their own product.  
-**Best for:** Teams prioritizing a permissive license and high development velocity for internal tools, particularly those wanting to embed or customize without copyleft obligations.
-
-### Budibase
-**Stack:** Node.js / Svelte | **License:** GPL-3.0 (Open Source) / Proprietary (Enterprise)
-Budibase is an open-source low-code platform for building, automating, and shipping internal tools on your own infrastructure, positioned as an alternative to OutSystems, Retool, Mendix, and Appian [citation:10]. It includes a built-in database plus connectors for Postgres, MySQL, MongoDB, Airtable, and REST APIs, with an automation engine for scheduled jobs and multi-step workflows [citation:13]. The **self-hosted edition is free forever under GPLv3** with no per-seat or per-app license fee [citation:13]. **Important caveat:** Its cloud free tier has been limited to 5 users and ~200 monthly automation runs, and **Repoly reports its current license as Proprietary/source-available rather than pure open source** [citation:10], so verify licensing terms carefully for your use case.  
-**Best for:** Teams wanting an accessible, all-in-one open-source internal tool builder with built-in automation, verifying current licensing before deployment.
-
-### Windmill
-**Stack:** Rust / Go / TypeScript / PostgreSQL | **License:** AGPLv3 (Community)
-Windmill is an open-source developer platform that turns scripts into webhooks, workflows, and UIs, positioned as an **open-source alternative to Retool and Temporal** [citation:2][citation:14]. It is a **code-first** platform: you write scripts in Python, TypeScript, Go, or Bash, and Windmill automatically generates a UI from the script's parameters. It claims to be the **fastest workflow engine (13x vs Airflow)** [citation:2]. It has 12,931 GitHub stars and active development (latest release 4 days ago) [citation:2]. The community edition is free for internal use under AGPLv3 . **Trade-off:** It is less of a drag-and-drop builder than ToolJet or Appsmith—teams comfortable writing code will get the most value.  
-**Best for:** Developer teams wanting to turn existing scripts into internal UIs and workflows with a fast, code-first platform, accepting AGPL terms.
-
-### Saltcorn
-**Stack:** Node.js / PostgreSQL | **License:** MIT
-Saltcorn is an open-source no-code application builder with a focus on **self-hosting simplicity**—it can run on a **2 GB VPS** and installs via a simple `npx saltcorn-install -y` command on Linux [citation:5]. It provides a drag-and-drop UI builder, data views, and a plugin ecosystem. It is positioned for users wanting a straightforward, self-hosted no-code platform without the complexity of enterprise tools. **Trade-off:** Less feature-dense than ToolJet or Appsmith, with a smaller community.  
-**Best for:** Individuals and small teams wanting a lightweight, MIT-licensed no-code builder they can run on minimal infrastructure.
-
-### Baserow
-**Stack:** Python / Django / Vue.js / PostgreSQL | **License:** MIT (Open Source Edition) / Proprietary (Premium)
-Baserow is an open-source no-code database and application builder, positioned as an Airtable alternative. The **Application Builder** removes its beta label in version 2.4.1 and is now declared production-ready [citation:12]. It provides a spreadsheet-like interface with 20+ field types, forms, and automations. The **Open Source Edition is MIT-licensed**, with premium features under a separate commercial license. Self-hosting uses an all-in-one Docker image that bundles PostgreSQL, Redis, and Caddy [citation:12]. It is a strong choice if your primary need is a structured data layer with a simple app UI on top.  
-**Best for:** Teams wanting an open-source Airtable alternative with a production-ready application builder, accepting that it is database-first rather than a full drag-and-drop tool builder.
-
-### Directus
-**Stack:** Node.js / Vue.js / SQL | **License:** BUSL-1.1 (source-available)
-Directus wraps any SQL database with a realtime GraphQL+REST API and an intuitive admin app for non-technical users, positioned as an instant App & API for your database [citation:10]. It has 39k GitHub stars and a health score of 98/100 [citation:10]. **Important licensing caveat:** It is **BUSL-1.1 (source-available, not OSI-approved)**, which limits commercial reuse [citation:10]. It is best suited for teams that already have a database schema and want a powerful admin UI and API layer without building from scratch.  
-**Best for:** Teams with existing SQL databases wanting an instant admin app and API, accepting the source-available licensing terms.
-
-### DashPress
-**Stack:** TypeScript / Node.js | **License:** Open Source
-DashPress lets you generate powerful admin apps without writing a single line of code—running `npx dashpress` scaffolds an admin interface from your database [citation:1]. It is positioned for rapid admin panel generation rather than full application building. It is listed among open-source internal tool frameworks [citation:1].  
-**Best for:** Developers wanting to instantly generate an admin panel from an existing database schema with minimal setup.
-
-### A12
-**Stack:** Java / Model-driven | **License:** EUPL 1.2 (Community Edition)
-A12 is a German open-source platform for model-driven development of enterprise applications, underpinning major public sector systems including Germany's federal tax portal ELSTER (50+ million tax returns annually) [citation:7]. It strengthens **digital sovereignty in Europe**, allowing organizations to understand, control, and adapt critical software independently [citation:7]. It is released under the **EUPL 1.2** on openCode and GitHub. **Trade-off:** It is enterprise and public-sector focused, with a model-driven approach that differs from typical drag-and-drop low-code tools.  
-**Best for:** European public sector organizations and enterprises prioritizing digital sovereignty and model-driven development, accepting a steeper learning curve than consumer-grade builders.
+| Framework | GitHub Stars | License | Primary Tech Stack | Description & Key Strengths |
+| :--- | :--- | :--- | :--- | :--- |
+| **[NocoDB](https://github.com/nocodb/nocodb)** | [![NocoDB Stars](https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white)](https://github.com/nocodb/nocodb/stargazers) | AGPL-3.0 | Node.js / Vue.js / TypeScript | Open-source smart spreadsheet and Airtable alternative. Transforms any existing relational database (PostgreSQL, MySQL, SQLite, SQL Server) into a collaborative, rich grid with REST/GraphQL APIs and webhooks. |
+| **[Appsmith](https://github.com/appsmithorg/appsmith)** | [![Appsmith Stars](https://img.shields.io/github/stars/appsmithorg/appsmith?style=social&color=white)](https://github.com/appsmithorg/appsmith/stargazers) | Apache-2.0 | Java / React / TypeScript | Leading permissive open-source low-code framework to build admin panels, internal tools, and workflows. Connects to 30+ databases and APIs with drag-and-drop widgets and custom JS scripting. |
+| **[ToolJet](https://github.com/ToolJet/ToolJet)** | [![ToolJet Stars](https://img.shields.io/github/stars/ToolJet/ToolJet?style=social&color=white)](https://github.com/ToolJet/ToolJet/stargazers) | GPL-3.0 / AGPL-3.0 | Node.js / React / PostgreSQL | Extensible open-source low-code internal tool builder with 40+ built-in UI components, 30+ database connectors, visual workflow automations, and multi-user role-based permissions. |
+| **[Directus](https://github.com/directus/directus)** | [![Directus Stars](https://img.shields.io/github/stars/directus/directus?style=social&color=white)](https://github.com/directus/directus/stargazers) | BUSL-1.1 | Node.js / Vue.js / TypeScript | Instantly wraps any SQL database schema with intuitive REST and GraphQL APIs coupled with a real-time, customizable administrative app for non-technical users. |
+| **[Refine](https://github.com/refinedev/refine)** | [![Refine Stars](https://img.shields.io/github/stars/refinedev/refine?style=social&color=white)](https://github.com/refinedev/refine/stargazers) | MIT | React / TypeScript / Next.js | Headless, code-first React framework for rapidly assembling enterprise internal tools, admin panels, CRM dashboards, and B2B platforms with maximum frontend flexibility. |
+| **[Budibase](https://github.com/Budibase/budibase)** | [![Budibase Stars](https://img.shields.io/github/stars/Budibase/budibase?style=social&color=white)](https://github.com/Budibase/budibase/stargazers) | GPL-3.0 / Source-Available | Node.js / Svelte / CouchDB | All-in-one low-code developer platform featuring a built-in database, connectors for Postgres, MySQL, and REST, visual design tools, and an automation engine for scheduled tasks. |
+| **[Windmill](https://github.com/windmill-labs/windmill)** | [![Windmill Stars](https://img.shields.io/github/stars/windmill-labs/windmill?style=social&color=white)](https://github.com/windmill-labs/windmill/stargazers) | AGPL-3.0 | Rust / Go / TypeScript / Python | Ultra-fast code-first developer platform that converts scripts (Python, TypeScript, Go, Bash, SQL) into auto-generated webhooks, UIs, and asynchronous distributed background workflows. |
+| **[Amplication](https://github.com/amplication/amplication)** | [![Amplication Stars](https://img.shields.io/github/stars/amplication/amplication?style=social&color=white)](https://github.com/amplication/amplication/stargazers) | Apache-2.0 | Node.js / TypeScript / NestJS | Open-source backend code-generation engine that builds production-ready Node.js/NestJS and React/GraphQL services with database schema management and GitHub sync. |
+| **[ILLA Cloud](https://github.com/illacloud/illa-builder)** | [![ILLA Builder Stars](https://img.shields.io/github/stars/illacloud/illa-builder?style=social&color=white)](https://github.com/illacloud/illa-builder/stargazers) | Apache-2.0 | Go / React / TypeScript | Low-code platform with native AI agent integration, allowing developers to visually connect AI models, databases, and APIs into real-time collaborative admin tools. |
+| **[Baserow](https://github.com/baserow/baserow)** | [![Baserow Stars](https://img.shields.io/github/stars/baserow/baserow?style=social&color=white)](https://github.com/baserow/baserow/stargazers) | MIT | Python / Django / Vue.js | Open-source no-code database and visual application builder. Features 20+ field types, real-time collaboration, and an Application Builder module to construct public and private portals. |
+| **[Mathesar](https://github.com/mathesar-foundation/mathesar)** | [![Mathesar Stars](https://img.shields.io/github/stars/mathesar-foundation/mathesar?style=social&color=white)](https://github.com/mathesar-foundation/mathesar/stargazers) | GPL-3.0 | Python / Django / Svelte | Open-source spreadsheet-like GUI tool specifically architected on top of PostgreSQL, enabling users to create schemas, queries, and data workflows without SQL expertise. |
+| **[Saltcorn](https://github.com/saltcorn/saltcorn)** | [![Saltcorn Stars](https://img.shields.io/github/stars/saltcorn/saltcorn?style=social&color=white)](https://github.com/saltcorn/saltcorn/stargazers) | MIT | Node.js / PostgreSQL | Lightweight, end-to-end no-code application platform designed for simple self-hosting on low-spec VPS servers with a visual drag-and-drop UI and extensible plugin system. |
+| **[Lowcoder](https://github.com/lowcoder-org/lowcoder)** | [![Lowcoder Stars](https://img.shields.io/github/stars/lowcoder-org/lowcoder?style=social&color=white)](https://github.com/lowcoder-org/lowcoder/stargazers) | AGPL-3.0 | Java / React / TypeScript | Open-source low-code builder for internal tools with plugin modules, mobile responsive layouts, and native database connectors. |
 
 ---
 
 ## 📊 Comparison at a Glance
 
-| Software | License | Stack | UI Builder | Database | Self-Hosted | Best For |
-|----------|---------|-------|------------|----------|-------------|----------|
-| **Retool** | Proprietary | Cloud | ✅ Drag-and-drop | ✅ Connectors | ❌ | Commercial internal tools |
-| **Bubble** | Proprietary | Cloud | ✅ Drag-and-drop | ✅ Hosted | ❌ | Full no-code web apps |
-| **OutSystems** | Proprietary | Cloud | ✅ Visual | ✅ | ❌ | Enterprise low-code |
-| **FlutterFlow** | Proprietary | Cloud | ✅ Drag-and-drop | (Firebase) | ❌ | Native mobile apps |
-| **ToolJet** | GPL/AGPL | Node.js/React | ✅ 40+ components | ✅ 30+ connectors | ✅ | Feature-dense OSS Retool alt |
-| **Appsmith** | Apache-2.0 | Java/React | ✅ Drag-and-drop | ✅ | ✅ | Permissive OSS + embed |
-| **Budibase** | GPL-3.0 | Node.js/Svelte | ✅ | ✅ Built-in | ✅ | All-in-one OSS + automation |
-| **Windmill** | AGPLv3 | Rust/Go/TS | (Script-generated) | ✅ PostgreSQL | ✅ | Code-first scripts → UIs |
-| **Saltcorn** | MIT | Node.js/Postgres | ✅ Drag-and-drop | ✅ PostgreSQL | ✅ | Lightweight self-hosted |
-| **Baserow** | MIT (OSS) | Python/Vue | ✅ App Builder | ✅ Built-in | ✅ | Database-first app builder |
-| **Directus** | BUSL-1.1 | Node.js/Vue | ✅ Admin app | ✅ Any SQL | ✅ | Instant API + admin on SQL |
-| **A12** | EUPL 1.2 | Java | ✅ Model-driven | (Check) | ✅ | European sovereignty + enterprise |
+| Software | License | Model | UI Builder | Database Layer | Primary Stack | Best For |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Zoho Creator** | Proprietary | SaaS | Drag-and-drop | Hosted Zoho DB | Cloud Hosted | Integrated business apps & SMB suites |
+| **OutSystems** | Proprietary | SaaS / Dedicated | Visual Studio | Enterprise Connectors | .NET / Cloud | Enterprise mission-critical applications |
+| **Appian** | Proprietary | SaaS / Self-Host | Visual Process | Enterprise Data Fabric | Java / Cloud | Regulated process automation & compliance |
+| **Retool** | Proprietary | SaaS / On-Prem | Drag-and-drop | 30+ DB Connectors | Node / React | Fast internal dashboards & CRUD tooling |
+| **Bubble** | Proprietary | SaaS | Visual Full-Stack | Hosted NoSQL DB | Node / Cloud | Full SaaS MVP launches without code |
+| **Mendix** | Proprietary | SaaS / On-Prem | Model-Driven | Cloud / Edge | Java / Siemens Cloud | Enterprise IoT and model-driven systems |
+| **FlutterFlow** | Proprietary | SaaS / Desktop | Drag-and-drop | Firebase / Supabase | Flutter / Dart | Native iOS/Android/Web applications |
+| **NocoDB** | AGPL-3.0 | Open-Source | Smart Grid | Any SQL Database | Node.js / Vue | Airtable alternative on your own SQL database |
+| **Appsmith** | Apache-2.0 | Open-Source | Drag-and-drop | Connectors & APIs | Java / React | Permissive OSS internal tools & embedding |
+| **ToolJet** | GPL/AGPL | Open-Source | 40+ Components | 30+ Connectors | Node.js / React | Feature-dense self-hosted Retool alternative |
+| **Directus** | BUSL-1.1 | Source-Available | Dynamic Admin | Any SQL Database | Node.js / Vue | Instant REST/GraphQL API + Admin for SQL |
+| **Refine** | MIT | Open-Source | React Headless | Any Backend/REST | React / Next.js | Code-first flexible internal dev frameworks |
+| **Budibase** | GPL-3.0 | Open-Source | Drag-and-drop | Built-in + External | Node.js / Svelte | Automated internal portals with workflows |
+| **Windmill** | AGPL-3.0 | Open-Source | Script-Generated | PostgreSQL | Rust / TS / Python | Code-first script-to-UI workflow engines |
+| **Amplication** | Apache-2.0 | Open-Source | Schema Builder | PostgreSQL / MySQL | TypeScript / NestJS | Production-ready backend & API generation |
+| **ILLA Cloud** | Apache-2.0 | Open-Source | Drag-and-drop | APIs & AI Models | Go / React | AI-augmented low-code dashboards |
+| **Baserow** | MIT | Open-Source | Grid & App Builder | Built-in Postgres | Python / Vue | Open-source modular Airtable + App builder |
+| **Mathesar** | GPL-3.0 | Open-Source | Spreadsheets | PostgreSQL Native | Python / Svelte | Direct PostgreSQL web interface & forms |
+| **Saltcorn** | MIT | Open-Source | Drag-and-drop | PostgreSQL / SQLite | Node.js / Express | Ultra-lightweight self-hosted no-code |
+| **Lowcoder** | AGPL-3.0 | Open-Source | Drag-and-drop | Database Connectors | Java / React | Clean modular self-hosted internal tools |
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Rapid Application Development (RAD) tool that should be listed here, please open a pull request with:
+Contributions are warmly welcome! If you know of an outstanding open-source Rapid Application Development framework, low-code tool, or internal app builder that belongs on this list:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
-
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source (or clearly note if it is source-available but not OSI-approved, as with Directus and Baserow's premium tiers). Note that the open-source ecosystem for **internal tools and admin panels** is very mature, with **ToolJet** and **Appsmith** leading on health and community metrics [citation:10]. **Appsmith** is the strongest choice if a permissive license matters , while **ToolJet** offers the densest feature set with a generous cloud free tier [citation:13]. **Windmill** takes a fundamentally different, code-first approach for developer teams [citation:2]. For full no-code web applications (Bubble-style), open-source options are thinner—**Baserow** and **Directus** are database-first rather than application-first.
+1. Fork this repository.
+2. Add your tool to the table (keeping it sorted by star count).
+3. Include project links, license, tech stack, and a clear description of why it stands out.
+4. Submit a Pull Request.
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
+This compilation is licensed under the [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) (CC0 1.0) Public Domain Dedication. Individual software products and frameworks listed belong to their respective copyright holders.
 
 ---
 
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+<p align="center">
+  <b>⭐ If you found this RAD directory valuable, consider starring the repository! ⭐</b>
+</p>
